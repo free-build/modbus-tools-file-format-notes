@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "formats": [
+    {
+      "id": "modbus-slave-7-binary",
+      "application": "Modbus Slave",
+      "version": "7.3.0",
+      "build": 1402,
+      "extension": ".mbs",
+      "container": "binary",
+      "signature": {
+        "offset": 0,
+        "type": "uint32-le",
+        "value": 7300
+      },
+      "fixture": "fixtures/modbus-slave-7.3.0-build-1402.mbs",
+      "fixture_validation": "structure-and-hash-verified",
+      "runtime_open_validation": "pending"
+    },
+    {
+      "id": "modbus-slave-10-binary",
+      "application": "Modbus Slave",
+      "version": "10.0.0",
+      "build": 2493,
+      "extension": ".mbs",
+      "container": "binary",
+      "signature": {
+        "offset": 0,
+        "type": "uint32-le",
+        "value": 10000
+      },
+      "fixture": "fixtures/modbus-slave-10.0.0-build-2493.mbs",
+      "fixture_validation": "structure-and-hash-verified",
+      "runtime_open_validation": "pending"
+    },
+    {
+      "id": "modbus-poll-6-binary",
+      "application": "Modbus Poll",
+      "version": "6.4.2",
+      "build": 964,
+      "extension": ".mbp",
+      "container": "binary",
+      "signature": {
+        "offset": 0,
+        "type": "uint32-le",
+        "value": 6402
+      },
+      "fixture": "fixtures/modbus-poll-6.4.2-build-964.mbp",
+      "fixture_validation": "structure-and-hash-verified",
+      "runtime_open_validation": "pending"
+    },
+    {
+      "id": "modbus-poll-13-xml",
+      "application": "Modbus Poll",
+      "version": "13.2.1",
+      "build": 2558,
+      "extension": ".mbp",
+      "container": "xml",
+      "signature": {
+        "root_element": "ModbusPoll",
+        "version_element": "Version"
+      },
+      "fixture": "fixtures/modbus-poll-13.2.1-build-2558.mbp",
+      "fixture_validation": "structure-and-hash-verified",
+      "runtime_open_validation": "pending"
+    }
+  ]
+}
+

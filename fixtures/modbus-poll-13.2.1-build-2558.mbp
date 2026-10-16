@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModbusPoll>
+  <FileSchema r="0" c="1" />
+  <Version major="13" minor="2" patch="1" build="2558" />
+  <dpi>96</dpi>
+  <WP left="100" right="700" top="100" bottom="500" ShowCmd="1" MaxPosX="-1" MaxPosY="-1" MinPosX="-1" MinPosY="-1" />
+  <ScanRate>1000</ScanRate>
+  <SlaveID>1</SlaveID>
+  <Enable>1</Enable>
+  <StopOnError>0</StopOnError>
+  <OneBased>0</OneBased>
+  <RowsDialog>0</RowsDialog>
+  <HideNames>0</HideNames>
+  <HexMode>0</HexMode>
+  <DisplayAddr>0</DisplayAddr>
+  <ColCount>2</ColCount>
+  <RowCount>10</RowCount>
+  <ColumnWidth>
+    <CW>1040</CW>
+    <CW>1040</CW>
+  </ColumnWidth>
+  <RowHight>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+    <RH>230</RH>
+  </RowHight>
+  <ScrollPosV>0</ScrollPosV>
+  <ScrollPosH>0</ScrollPosH>
+  <FocusRow>1</FocusRow>
+  <FocusCol>2</FocusCol>
+  <LogText>
+    <Eachread>0</Eachread>
+    <Rate>1</Rate>
+    <LogChangedOnly>0</LogChangedOnly>
+    <LogErrors>0</LogErrors>
+    <LogErrorsOnly>0</LogErrorsOnly>
+    <LogAddress>1</LogAddress>
+    <LogDate>0</LogDate>
+    <TDelimiter>0</TDelimiter>
+    <LogMs>1</LogMs>
+    <Delimiter>0</Delimiter>
+    <AutoStart>0</AutoStart>
+    <Flush>0</Flush>
+    <Append>0</Append>
+    <NewLogFileAtMidnight>0</NewLogFileAtMidnight>
+    <InsertHeader>0</InsertHeader>
+    <NameCellsInTopRow>0</NameCellsInTopRow>
+    <PollDefinition>0</PollDefinition>
+    <LogName>Type log name here</LogName>
+    <FileName />
+  </LogText>
+  <LogExcel>
+    <Eachread>1</Eachread>
+    <Rate>1</Rate>
+    <StopAfter>1000</StopAfter>
+    <LogChangedOnly>0</LogChangedOnly>
+    <InsertHeader>1</InsertHeader>
+    <NameCellsInTopRow>1</NameCellsInTopRow>
+    <PollDefinition>1</PollDefinition>
+    <LogName>Type log name here</LogName>
+  </LogExcel>
+  <Data>
+    <Function>2</Function>
+    <Address>100</Address>
+    <Quantity>5</Quantity>
+    <EnronMode>0</EnronMode>
+    <Bytes>
+      <B>0</B>
+      <B>0</B>
+      <B>0</B>
+      <B>0</B>
+      <B>0</B>
+    </Bytes>
+    <CellData>
+      <Cell idx="0">
+        <Colors />
+        <Compare compare1="0" compare2="0" conditional1="0" conditional2="0" cnc="0" />
+        <Name>Fixture register 0</Name>
+        <Font used="true" lfHeight="-9" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="0" lfFaceName="Microsoft YaHei UI" />
+      </Cell>
+      <Cell idx="1">
+        <Colors />
+        <Compare compare1="0" compare2="0" conditional1="0" conditional2="0" cnc="0" />
+        <Name>Fixture register 1</Name>
+        <Font used="true" lfHeight="-9" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="0" lfFaceName="Microsoft YaHei UI" />
+      </Cell>
+      <Cell idx="2">
+        <Colors />
+        <Compare compare1="0" compare2="0" conditional1="0" conditional2="0" cnc="0" />
+        <Name>Fixture register 2</Name>
+        <Font used="true" lfHeight="-9" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="0" lfFaceName="Microsoft YaHei UI" />
+      </Cell>
+      <Cell idx="3">
+        <Colors />
+        <Compare compare1="0" compare2="0" conditional1="0" conditional2="0" cnc="0" />
+        <Name>Fixture register 3</Name>
+        <Font used="true" lfHeight="-9" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="0" lfFaceName="Microsoft YaHei UI" />
+      </Cell>
+      <Cell idx="4">
+        <Colors />
+        <Compare compare1="0" compare2="0" conditional1="0" conditional2="0" cnc="0" />
+        <Name>Fixture register 4</Name>
+        <Font used="true" lfHeight="-9" lfWidth="0" lfEscapement="0" lfOrientation="0" lfWeight="400" lfItalic="0" lfUnderline="0" lfStrikeOut="0" lfCharSet="1" lfOutPrecision="0" lfClipPrecision="0" lfQuality="0" lfPitchAndFamily="0" lfFaceName="Microsoft YaHei UI" />
+      </Cell>
+    </CellData>
+    <ChartSeries />
+  </Data>
+</ModbusPoll>

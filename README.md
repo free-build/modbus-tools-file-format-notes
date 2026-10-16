@@ -73,4 +73,3 @@ python tools/detect_format.py fixtures/modbus-poll-13.2.1-build-2558.mbp
 
 本仓库原创文档采用 [MIT License](LICENSE)。该许可证不授予任何第三方软件、商标或文件格式规范的权利。
 
-

@@ -1,0 +1,40 @@
+name: New format or version report
+description: Report a new Modbus Poll/Slave project-file version
+title: "[version] "
+labels: ["format-research"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload customer projects, proprietary documentation, executables, type libraries, or license material.
+  - type: input
+    id: application
+    attributes:
+      label: Application
+      placeholder: Modbus Poll or Modbus Slave
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and build
+      placeholder: 13.2.1 Build 2558
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result type
+      options:
+        - File signature observation
+        - Runtime open test
+        - Compatibility test
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Reproduction details
+      description: Describe the source and direction of the test without including confidential data.
+    validations:
+      required: true
+
